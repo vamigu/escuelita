@@ -9,11 +9,23 @@ body {
     text-align: center;
 }
 
+.p1 {
+    float: left;
+    padding-top: 10px;
+    
+}
+
+.container {
+  float:left;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: white;
+    position: absolute;
+    bottom: 0;
 }
 
 li {
