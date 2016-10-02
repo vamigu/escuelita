@@ -9,13 +9,16 @@ body {
 #header-nav {
     background-color: white;
     border-radius: 0;
-    border: 0;
+    border: 1px solid red;
     text-align: center;
 }
 
 .row {
     border: 1px solid;
 }
+
+.col-md-2 {
+    border:1px solid blue;
 
 .title {
     //border: 1px solid;
