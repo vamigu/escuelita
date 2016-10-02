@@ -41,7 +41,8 @@ body {
 .title {
     width:100%;
     float:top;
-    padding-top:5px; 
+    padding-top:5px;
+    font-family: 'Gorditas', cursive;
 }
 
 .links {
