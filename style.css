@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
 	background-color: #FFFFC2;
 }
@@ -9,14 +13,41 @@ body {
     text-align: center;
 }
 
-.p1 {
-    float: left;
-    padding-top: 10px;
-    
-}
 
 .container {
-  float:left;
+    display:table;
+}
+
+.logo {
+    display: table-cell;
+    padding-top: 10px;
+    width: 282px;
+}
+
+#imglogo {
+    width: 282px;
+    height: 204px;
+}
+
+.menu {
+    display: table-cell;
+    width:auto;
+    position:relative;
+    vertical-align:top;
+    padding: 20px;
+}
+
+.title {
+    width:100%;
+    float:top;
+    padding-top:15px; 
+}
+
+.links {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    float:top;
 }
 
 ul {
@@ -24,12 +55,14 @@ ul {
     margin: 0;
     padding: 0;
     background-color: white;
-    position: absolute;
-    bottom: 0;
 }
 
 li {
     float: left;
+}
+
+#contactlink {
+    float: right;
 }
 
 li a {
@@ -39,6 +72,8 @@ li a {
     color: black;
     text-decoration: none;
 }
+
+
 
 li a:hover {
     background-color: #FBD1FC;
