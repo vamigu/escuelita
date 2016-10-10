@@ -31,8 +31,14 @@ body {
 
 /**Content**/
 
-.content {
+.container-fluid {
     text-align: justify;
+    background-color: #fadbfc;
+    font-family: 'Ruluko', Sans-Serif;
+    font-size: 16px;
+    padding: 50px;
+    border: solid;
+    border-color: #4e2951;
 }
 
 .content ul {
@@ -48,27 +54,27 @@ body {
 @media (max-width: 767px) {
     .content {
 	border: 50px solid transparent;
-	-webkit-border-image: url(images/fondo.png) 33% stretch;
-	-o-border-image: url(images/fondo.png) 33% stretch;
-	border-image: url(images/fondo.png) 33% stretch;
+	-webkit-border-image: url(images/fondo2.png) 33% stretch;
+	-o-border-image: url(images/fondo2.png) 33% stretch;
+	border-image: url(images/fondo2.png) 33% stretch;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .content {
 	border: 100px solid transparent;
-	-webkit-border-image: url(images/fondo.png) 33% stretch;
-	-o-border-image: url(images/fondo.png) 33% stretch;
-	border-image: url(images/fondo.png) 33% stretch;
+	-webkit-border-image: url(images/fondo2.png) 33% stretch;
+	-o-border-image: url(images/fondo2.png) 33% stretch;
+	border-image: url(images/fondo2.png) 33% stretch;
     }
 }
 
 @media (min-width: 992px) {
     .content {
 	border: 150px solid transparent;
-	-webkit-border-image: url(images/fondo.png) 33% stretch;
-	-o-border-image: url(images/fondo.png) 33% stretch;
-	border-image: url(images/fondo.png) 33% stretch;
+	-webkit-border-image: url(images/fondo2.png) 33% stretch;
+	-o-border-image: url(images/fondo2.png) 33% stretch;
+	border-image: url(images/fondo2.png) 33% stretch;
 }
     }
 } 
