@@ -3,7 +3,8 @@ a* {
 }
 
 body {
-    background-color: #C0F3FF;
+    background-color: #f181f9;
+    color: black;
 }
 
 /**Header**/
@@ -36,6 +37,12 @@ body {
 
 .content ul {
     list-style-type: none;
+}
+
+/**Carousel**/
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
 
 @media (max-width: 767px) {
