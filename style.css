@@ -114,9 +114,14 @@ body {
   padding-bottom: 10px;
   border-top: 0;
   width: 100%;
+  text-align: center;
 }
 
 .panel-footer div.row {
   margin-bottom: 10px;
 }
 
+
+#ubicacion-frame {
+  border: none;
+}
