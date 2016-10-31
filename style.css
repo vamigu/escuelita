@@ -11,7 +11,7 @@ body {
 
 #header-nav {
     //border: 1px solid red;
-    background-color: white;
+    background-color: #f2f7ff;
     border-radius: 0;
     text-align: center;
 }
@@ -30,19 +30,58 @@ body {
 }
 
 /**Content**/
-/**
+
 .container-fluid {
     text-align: justify;
-    background-color: #fadbfc;
+    background-color: #ffffd3;
     font-family: 'Ruluko', Sans-Serif;
     font-size: 16px;
     padding: 50px;
     border: solid;
     border-color: #4e2951;
-}**/
+}
 
 .content ul {
     list-style-type: none;
+}
+
+#kids {
+    float:right;
+}
+
+#matriculas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#atencion {
+    font-family: 'Cooper Black';
+    font-size: 20px;
+    text-align: center;
+}
+
+#listas {
+    text-align: center;
+}
+
+#quienessomos {
+    font-family: 'Cooper Black';
+    font-size: 20px;
+    text-align: center;
+}
+
+#descripcion {
+    text-align: justify;
+}
+
+#contamos {    
+    text-align: center;
+    font-family: 'Cooper Black';
+    font-size: 20px;
+}
+#servicios {
+    text-align: center;
 }
 
 /**Carousel**/
@@ -58,9 +97,8 @@ body {
 	-o-border-image: url(images/fondo2.png) 33% stretch;
 	border-image: url(images/fondo2.png) 33% stretch;
     }
+
    .container-fluid {
-    text-align: justify;
-    background-color: #fadbfc;
     font-family: 'Ruluko', Sans-Serif;
     font-size: 12px;
     margin: none;
@@ -78,8 +116,6 @@ body {
 	border-image: url(images/fondo2.png) 33% stretch;
     }
     .container-fluid {
-    text-align: justify;
-    background-color: #fadbfc;
     font-family: 'Ruluko', Sans-Serif;
     font-size: 16px;
     padding: 50px;
@@ -96,8 +132,6 @@ body {
 	border-image: url(images/fondo2.png) 33% stretch;
     }
     .container-fluid {
-    text-align: justify;
-    background-color: #fadbfc;
     font-family: 'Ruluko', Sans-Serif;
     font-size: 16px;
     padding: 50px;
@@ -124,4 +158,4 @@ body {
 
 #ubicacion-frame {
   border: none;
-}
+  }
