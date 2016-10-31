@@ -56,7 +56,7 @@ body {
 }
 
 #atencion {
-    font-family: 'Cooper Black';
+    font-family: 'Gorditas', cursive;
     font-size: 20px;
     text-align: center;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 #quienessomos {
-    font-family: 'Cooper Black';
+    font-family: 'Gorditas', cursive;
     font-size: 20px;
     text-align: center;
 }
@@ -77,7 +77,7 @@ body {
 
 #contamos {    
     text-align: center;
-    font-family: 'Cooper Black';
+    font-family: 'Gorditas', cursive;
     font-size: 20px;
 }
 #servicios {
@@ -88,6 +88,15 @@ body {
 
 .carousel-inner > .item > img {
     margin: 0 auto;
+}
+
+.carousel-caption {
+    color: #ffff70;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold; 
+}
+.highlight {
+    background-color: rgba(0,0,0,0.5);
 }
 
 @media (max-width: 767px) {
@@ -104,6 +113,7 @@ body {
     margin: none;
     border: solid;
     border-color: #4e2951;
+    padding:20px;
     padding-bottom: 10px;
   }
 }
